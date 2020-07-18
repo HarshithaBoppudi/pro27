@@ -14,6 +14,7 @@ class bob{
             World.add(world, this.body);
           }
           display(){
+            fill("green")
             push();
             translate(this.body.position.x, this.body.position.y);
             ellipseMode(RADIUS);
